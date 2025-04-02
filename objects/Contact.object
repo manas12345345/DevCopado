@@ -1,74 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Guest_Type__c</fullName>
-        <description>Defines the category of the guest based on their preferences, purpose of visit, and characteristics. This field helps the resort in tailoring services, offers, and communications to enhance the guest experience. It includes values such as Eco-Luxury Travelers, Tech-Savvy Explorers, Wellness Seekers, etc., reflecting the diverse clientele the resort serves.</description>
-        <label>Guest Type</label>
+        <fullName>Interest2__c</fullName>
+        <label>Interest 2</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
+            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Adventure Enthusiasts</fullName>
+                    <fullName>Adventure Activities</fullName>
                     <default>false</default>
-                    <label>Adventure Enthusiasts</label>
+                    <label>Adventure Activities</label>
                 </value>
                 <value>
-                    <fullName>Business and Pleasure Travelers</fullName>
+                    <fullName>Beaches &amp; Snorkeling</fullName>
                     <default>false</default>
-                    <label>Business and Pleasure Travelers</label>
+                    <label>Beaches &amp; Snorkeling</label>
                 </value>
                 <value>
-                    <fullName>Celebration Groups</fullName>
+                    <fullName>Cultural Tours &amp; Workshops</fullName>
                     <default>false</default>
-                    <label>Celebration Groups</label>
+                    <label>Cultural Tours &amp; Workshops</label>
                 </value>
                 <value>
-                    <fullName>Cultural Connoisseurs</fullName>
+                    <fullName>Dining Experiences</fullName>
                     <default>false</default>
-                    <label>Cultural Connoisseurs</label>
+                    <label>Dining Experiences</label>
                 </value>
                 <value>
-                    <fullName>Digital Detoxers</fullName>
+                    <fullName>Family &amp; Kids&apos; Activities</fullName>
                     <default>false</default>
-                    <label>Digital Detoxers</label>
+                    <label>Family &amp; Kids&apos; Activities</label>
                 </value>
                 <value>
-                    <fullName>Eco-Luxury Travelers</fullName>
+                    <fullName>Fitness &amp; Exercise</fullName>
                     <default>false</default>
-                    <label>Eco-Luxury Travelers</label>
+                    <label>Fitness &amp; Exercise</label>
                 </value>
                 <value>
-                    <fullName>Family Fun Seekers</fullName>
+                    <fullName>Golf</fullName>
                     <default>false</default>
-                    <label>Family Fun Seekers</label>
+                    <label>Golf</label>
                 </value>
                 <value>
-                    <fullName>Gourmet Globetrotters</fullName>
+                    <fullName>Nature &amp; Eco Tours</fullName>
                     <default>false</default>
-                    <label>Gourmet Globetrotters</label>
+                    <label>Nature &amp; Eco Tours</label>
                 </value>
                 <value>
-                    <fullName>Romance Retreaters</fullName>
+                    <fullName>Nightlife &amp; Entertainment</fullName>
                     <default>false</default>
-                    <label>Romance Retreaters</label>
+                    <label>Nightlife &amp; Entertainment</label>
                 </value>
                 <value>
-                    <fullName>Solitude Seekers</fullName>
+                    <fullName>Relaxation &amp; Quiet Zones</fullName>
                     <default>false</default>
-                    <label>Solitude Seekers</label>
+                    <label>Relaxation &amp; Quiet Zones</label>
                 </value>
                 <value>
-                    <fullName>Tech-Savvy Explorers</fullName>
+                    <fullName>Spa &amp; Wellness</fullName>
                     <default>false</default>
-                    <label>Tech-Savvy Explorers</label>
+                    <label>Spa &amp; Wellness</label>
                 </value>
                 <value>
-                    <fullName>Wellness Seekers</fullName>
+                    <fullName>Swimming Pools</fullName>
                     <default>false</default>
-                    <label>Wellness Seekers</label>
+                    <label>Swimming Pools</label>
+                </value>
+                <value>
+                    <fullName>Tennis &amp; Pickleball</fullName>
+                    <default>false</default>
+                    <label>Tennis &amp; Pickleball</label>
+                </value>
+                <value>
+                    <fullName>Water Sports</fullName>
+                    <default>false</default>
+                    <label>Water Sports</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
